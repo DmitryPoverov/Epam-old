@@ -50,4 +50,5 @@ public class BusinessTrip {
     public String toString() {
         return account  + ";" + days + ";" + transport*0.01 + ";" + getTotal();
     }
+
 }

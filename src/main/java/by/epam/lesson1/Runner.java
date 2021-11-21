@@ -23,6 +23,7 @@ public class Runner {
         }
 
         businessTrip3.setTransport(4000);
+
         System.out.println("Duration=" + businessTrip.getDays()+businessTrip1.getDays());
 
         for (BusinessTrip trip : trips) {
