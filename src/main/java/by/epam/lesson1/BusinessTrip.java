@@ -2,7 +2,7 @@ package by.epam.lesson1;
 
 public class BusinessTrip {
 
-    public static final int RATE = 700;
+    private static final int RATE = 700;
     private String account;
     private int transport;
     private int days;
@@ -19,27 +19,22 @@ public class BusinessTrip {
     public String getAccount() {
         return account;
     }
-
-    public void setAccount(String account) {
-        this.account = account;
-    }
-
     public int getTransport() {
         return transport;
     }
-
-    public void setTransport(int transport) {
-        this.transport = transport;
-    }
-
     public int getDays() {
         return days;
     }
 
+    public void setAccount(String account) {
+        this.account = account;
+    }
+    public void setTransport(int transport) {
+        this.transport = transport;
+    }
     public void setDays(int days) {
         this.days = days;
     }
-
     public double getTotal() {
         return ((RATE * days)+transport)/0.01;
     }
