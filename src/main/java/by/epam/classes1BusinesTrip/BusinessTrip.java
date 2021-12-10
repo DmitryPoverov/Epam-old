@@ -6,7 +6,7 @@ public class BusinessTrip {
     private String account;
     private int transportExpenses;
     private int days;
-
+    //*
     public BusinessTrip() {
     }
 
