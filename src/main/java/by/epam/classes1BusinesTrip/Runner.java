@@ -3,7 +3,7 @@ package by.epam.classes1BusinesTrip;
 public class Runner {
     public static void main(String[] args) {
 
-        // condition 1
+        // condition 1*
         BusinessTrip[] trips =
                 {new BusinessTrip("Andy", 1001, 4),
                         new BusinessTrip("Bobby", 1010, 8),
