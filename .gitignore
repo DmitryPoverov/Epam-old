@@ -2,6 +2,7 @@
 out
 target
 .gitignore
+pom.xml
 
 # Compiled class file
 *.class
